@@ -34,7 +34,6 @@ class OnboardView extends GetView<OnboardController> {
       skipFunctionOverride: ()
       {
         Get.offNamed(Routes.HOME);
-
       },
 
       controllerColor: kDarkBlueColor,

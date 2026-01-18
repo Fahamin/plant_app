@@ -1,10 +1,7 @@
-
-
-
 import 'package:flutter/material.dart';
 import 'package:get/get.dart';
-import 'package:plant_app/screen/home_screen.dart';
 
+import 'app/modules/home/views/home_view.dart';
 import 'core/constance/colors.dart';
 import 'core/helpers/helper_functions.dart';
 
@@ -42,7 +39,7 @@ class NavigationController extends GetxController{
   final RxInt selectedIndex = 0.obs;
 
   final screens = [
-    const HomeScreen(),
+    const HomeView(),
     //const FavoriteView(),
   //  const ProfileView(),
 
