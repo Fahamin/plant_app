@@ -22,7 +22,7 @@ class _SplashScreenState extends State<SplashScreen> {
     bool _seen = (prefs.getBool('seen') ?? false);
 
     if (_seen) {
-      Get.offNamed(Routes.HOME);
+      Get.offNamed(Routes.NAVPAGE);
     } else {
       await prefs.setBool('seen', true);
       Get.offNamed(Routes.ONBOARD);
